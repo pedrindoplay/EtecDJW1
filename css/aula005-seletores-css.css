@@ -1,0 +1,40 @@
+*{
+    margin: 10;
+}
+body {
+    background-color:rgb(115, 197, 224) ;
+    font-family: Condensed ;
+    
+}
+h1{
+    color: rgb(38, 0, 255); /* RGB - red, gren, blue*/
+    border: 1px solid rgb(128, 128, 128);
+    text-align: center;
+}
+
+main p{
+    font-weight:bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(57, 51, 241);
+}
+footer{
+    background-color: rgb(130, 218, 236);
+}
+footer a{
+    font-weight: bold;
+}
+main p a:hover{
+    text-decoration: underline;
+}
+p{
+    border: 1px solid gray  ;
+    margin-top: 10px ;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin: 30px 25px 15px 5px;
+
+    padding: 5px;
+}
