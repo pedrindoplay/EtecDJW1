@@ -24,11 +24,15 @@ header h1{
     font-style: italic;
     padding: 20px;
 }
+body header nav{
+    text-align: center;
+}
 header ul{
     list-style:upper-roman;
     margin-top: 5px;
     border-top: 2px solid lightgray;
     border-bottom: center;
+    
 }
 header ul li{
     display: inline-block;
@@ -48,6 +52,20 @@ footer{
     text-align: center;
     color: gray;
 }
-main #principal{
-    background-image: url(../img/xicaradecafe.jpg);
+main #principal {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url("../img/15\ Dogs\ Who\ Are\ Smarter\ Than\ Your\ Baby.gif");
+    background-position: center;
+    line-height: 25px;
+    text-align: center;
 }
+main #principal div{
+    background-color: #0009;
+    color: white;
+    max-width: 80%;
+    margin: 0 auto ;
+        
+}
+
