@@ -73,6 +73,8 @@ main #principal div{
     line-height: 50px;   
 }
 main #artigos{
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -82,10 +84,12 @@ main #artigos{
     margin: 5px;
 }
 main article{
+    flex-grow: 1; /*Grow = crescerFaz com que as telinhas com texto e imagem fique de tamanho normal independente do tamanho da tela */
+    flex-basis: 550px;
     display: inline-block;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
-    margin-top: 20px;
+    margin: 5px;
     box-shadow: 3px 3px 20px rgb(0, 0, 0);
     background-color: white;
 }
@@ -114,4 +118,8 @@ article div.img{
 #i5{
     background: url("../img/foto-g.jpg") center;
     height: 250px;
+}
+#musica{
+    text-align: center;
+    font-size: 10px;
 }
