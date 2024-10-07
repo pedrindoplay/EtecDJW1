@@ -2,6 +2,8 @@ main{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    padding: 20px;
+
 }
 section {
     flex-grow: 1   ;
@@ -17,7 +19,6 @@ section h1{
     font-weight: lighter
 }
 form{
-    border: 1px solid black;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -28,4 +29,50 @@ label{
 }
 input, textarea{
     display: block;
+    padding: 10px;
+    width: 0% auto;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    color: blue;
+}
+textarea{
+    height: 100px;
+}
+button{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px
+}
+section p{
+    color: gray;
+    margin: 10px;
+}
+#privacidade{
+    font-size: 12px;
+    margin-top: 50px;
+}
+section h2{
+    font-size: 23px;
+    color: gray;
+    font-weight: lighter;
+    margin: 60px 0 20px 0;
+}
+#redes a{
+    margin-right: 30px;
+}
+#youtube{
+    margin: 0 ;
+    width: 100px;
+}
+#instagram{
+    margin: auto;
+    width: 150px;
+}
+#facebook{
+    margin: 20px;
+    width: 50px;
 }
