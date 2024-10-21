@@ -76,3 +76,18 @@ section h2{
     margin: 20px;
     width: 50px;
 }
+.mapa {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+}
+
+.mapa iframe {
+    border: none;
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+}
